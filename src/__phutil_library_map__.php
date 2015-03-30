@@ -11,12 +11,14 @@ phutil_register_library_map(array(
   'class' => array(
     'SovereignApplication' => 'sovereign/application/SovereignApplication.php',
     'SovereignBaseController' => 'sovereign/controller/SovereignBaseController.php',
+    'SovereignConfigOptions' => 'sovereign/config/option/SovereignConfigOptions.php',
     'SovereignController' => 'sovereign/controller/SovereignController.php',
   ),
   'function' => array(),
   'xmap' => array(
     'SovereignApplication' => 'PhabricatorApplication',
     'SovereignBaseController' => 'PhabricatorController',
+    'SovereignConfigOptions' => 'PhabricatorApplicationConfigOptions',
     'SovereignController' => 'SovereignBaseController',
   ),
 ));
