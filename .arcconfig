@@ -1,0 +1,6 @@
+{
+	"project.name": "phabricator-sovereign",
+	"load" : [
+		"../phabricator/src/"
+	]
+}
